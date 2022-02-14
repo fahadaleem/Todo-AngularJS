@@ -1,0 +1,19 @@
+.todo-list-inner {
+  list-style: none;
+}
+
+.todo-item {
+  background-color: #d5d5d5;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.close-btn {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}

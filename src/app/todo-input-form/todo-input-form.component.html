@@ -1,0 +1,15 @@
+<form
+  class="todo-input-form"
+  #userLogin="ngForm"
+  (ngSubmit)="onSubmit(userLogin)"
+>
+  <input
+    type="text"
+    class="todo-input"
+    placeholder="Enter todo"
+    name="todo"
+    required
+    ngModel
+  />
+  <Button type="submit" class="submit-btn">Add</Button>
+</form>

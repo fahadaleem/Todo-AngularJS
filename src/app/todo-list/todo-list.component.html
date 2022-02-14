@@ -1,0 +1,10 @@
+<div class="todo-list">
+  <ul class="todo-list-inner">
+    <li *ngFor="let todo of todos" class="todo-item">
+      {{ todo.id }} - {{ todo.todo }}
+      <button class="close-btn" (click)="handleDeleteTodo.emit(todo.id)">
+        X
+      </button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,11 @@
+header {
+  background-color: #252422;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-heading {
+  color: #edf6f9;
+  font-size: 3rem;
+}
